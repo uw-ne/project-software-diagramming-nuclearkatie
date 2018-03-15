@@ -48,6 +48,12 @@ def perform_a_task(useful_data, more_data):
     """
 ```
 
+Create an issue for each function that will be need to be created. As your
+project continues, you can use the discussion for that issue to keep track of
+changes that emerge from the implementation process.  Consider if/how sets of
+issues make sense to combine into a project and/or contribute to a reaching a
+milestone.
+
 ## Important Considerations
 
 1. Data models: What standard data structures will you use throughout your
@@ -62,7 +68,8 @@ def perform_a_task(useful_data, more_data):
 
 1. Separation of Concerns: Does each function have a single clear and
    unambiguous task? How easy will it be to test that the function is
-   correctly performing its task?
+   correctly performing its task?  
+
 
 ## Additional Guidance
 
@@ -123,3 +130,6 @@ For testing/demonstration purposes, you'll need to implement at least one of
 those, but the design should be such that no changes are needed to the "Solve
 Physics" block if/when someone implements a different method for providing
 input.
+
+The biggest benefit of this kind of independence is that it will allow you to
+divide up the effort and work in parallel.
