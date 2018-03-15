@@ -18,12 +18,35 @@ At the highest level, both projects this year have the following structure:
   * setup problem
   * loop over time steps
      * build matrix
-     * solve matrix
+     * (possibly solve matrix equation A.x=b)
      * update time step
 * write output
 
+Many of the items above can be broken down into additional substeps, possibly
+with some hierarchy.  When complete, nearly every bullet will represent a
+distinct function that must be called.  (Some bullets may represent loops
+within functions, as seen above.)
 
+This assignment is to complete the diagram for your software.  When complete,
+you should have a more detailed outline, based on the one above.  For each
+entry, you should also have a detailed function signature, including a
+docstring.
 
+```
+def perform_a_task(useful_data, more_data):
+    """This function will extract entries from `useful_data` and apply
+    some operation based on `more_data` to calculate a result.
+
+    inputs
+    ------
+    - useful_data : list of strings (or whatever, as appropriate) containing some data
+    - more_data   : dictionary (or list or integer or whatever)
+
+    outputs
+    -------
+    - result : numpy array (or whatever) containing the results
+    """
+```
 
 Each team will prepare their repository to outline a project plan that
 includes the elements below.  When complete, these elements should communicate
