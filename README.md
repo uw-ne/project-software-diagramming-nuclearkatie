@@ -48,11 +48,16 @@ def perform_a_task(useful_data, more_data):
     """
 ```
 
-Create an issue for each function that will be need to be created. As your
-project continues, you can use the discussion for that issue to keep track of
-changes that emerge from the implementation process.  Consider if/how sets of
-issues make sense to combine into a project and/or contribute to a reaching a
-milestone.
+## Specific Tasks
+
+1. Create an issue for each function that will be need to be created. As your
+   project continues, you can use the discussion for that issue to keep track
+   of changes that emerge from the implementation process.  Consider if/how
+   sets of issues make sense to combine into a project and/or contribute to a
+   reaching a milestone.
+
+1. Add a complete outline to your README file that shows the flow among all
+   the functions you have defined. Include links to each issue created above.
 
 ## Important Considerations
 
